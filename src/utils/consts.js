@@ -1,0 +1,6 @@
+export const BASKET_ROUTE = '/basket'
+export const MAIN_PAGE_ROUTE = '/'
+export const AUTHORIZATION_ROUTE = '/authorization'
+export const REGISTRATION_ROUTES = '/registration'
+export const SUPPLE_ROUTE = '/supple'
+export const ACCOUNT_ROUTE = '/account'
