@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TemirhanT/temirhant.github.io/static/css/main.90e1a53f.css",
+    "main.js": "/TemirhanT/temirhant.github.io/static/js/main.35cf27bc.js",
+    "index.html": "/TemirhanT/temirhant.github.io/index.html",
+    "main.90e1a53f.css.map": "/TemirhanT/temirhant.github.io/static/css/main.90e1a53f.css.map",
+    "main.35cf27bc.js.map": "/TemirhanT/temirhant.github.io/static/js/main.35cf27bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90e1a53f.css",
+    "static/js/main.35cf27bc.js"
+  ]
+}
