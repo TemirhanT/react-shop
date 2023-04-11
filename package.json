@@ -1,7 +1,7 @@
 {
   "name": "shop",
   "version": "0.1.0",
-  "homepage": "http://temirhant.github.io/shop-react-app",
+  "homepage": "http://temirhant.github.io/shop",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
