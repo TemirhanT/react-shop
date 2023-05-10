@@ -31,10 +31,12 @@ const CarouselComp = observer(() => {
         positionDiff = Math.abs(positionDiff);
         let firstImgWidth; 
         
-        if(window.innerWidth > 1000) {
+        if(window.innerWidth > 1400) {
             firstImgWidth = 1000/3
+        } else if (window.innerWidth > 1000 && window.innerWidth < 1400) {
+            firstImgWidth = 650/2
         } else {
-            firstImgWidth = window.innerWidth/3
+            firstImgWidth = 400
         }
         let valDiff = firstImgWidth - positionDiff;
         if(carousel.scrollLeft > prevScrollLeft) {
@@ -75,25 +77,20 @@ const CarouselComp = observer(() => {
     const leftClick = () => {
         if(window.innerWidth > 1400) {
             carousel.scrollLeft -= 1000/3
-            console.log(window.innerWidth)
+
         } else if (window.innerWidth > 1000 && window.innerWidth < 1400) {
             carousel.scrollLeft -= 650/2
-            console.log(window.innerWidth)
         } else {
             carousel.scrollLeft -= 400
-            console.log(window.innerWidth)
         }
     }
     const rightClick = () => {
         if(window.innerWidth > 1400) {
             carousel.scrollLeft += 1000/3
-            console.log(window.innerWidth)
         } else if (window.innerWidth > 1000 && window.innerWidth <= 1400) {
             carousel.scrollLeft += 650/2
-            console.log(window.innerWidth)
         } else {
             carousel.scrollLeft += 400
-            console.log(window.innerWidth)
         }
     }
 
